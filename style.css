@@ -1,6 +1,38 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    
-}
+  }
+  .navbar-brand {
+    font-size: 1.5em;
+    font-family: "Dancing Script", serif;
+  }
+  .navbar-brand:hover {
+    color: #FFC107;
+  }
+  .nav-link {
+    margin-left: 10px;
+    margin-right:10px;
+    color: rgb(25, 5, 5);
+  }
+  .search{
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+    border: 1.5px solid rgb(3, 2, 3);
+  }
+  .btnbtn-outline-success{
+    border-radius: 10px;
+  }
+  .main{
+    background: url(.img/lunchcopy.jpg)no-repeat;
+  }
+  .card{
+   margin-top: 5%;
+    margin-left: 5%;
+    width: 210px; /* Adjust width */
+    height: 250px; /* Adjust height */
+    inset-block-start: 1;
+  }
+ 
